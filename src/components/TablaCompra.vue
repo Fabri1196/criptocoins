@@ -11,7 +11,7 @@
         <tbody>
             <tr v-for="agency in Object.keys(agencies)" :key="agency">
                 <td>{{agency}}</td>
-                <td>{{this.agencies[agency].totalAsk}}</td>
+                <td>$ {{this.agencies[agency].totalAsk}}</td>
                 <td><button @click="change(agency)">Comprar</button></td>
             </tr>
         </tbody>

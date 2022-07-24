@@ -12,17 +12,17 @@
         <tbody>
               <tr v-show="$store.state.resultadoBTC != 0">
                 <td>{{BTC}}</td>
-                <td>{{$store.state.resultadoBTC}}</td>
+                <td>$ {{$store.state.resultadoBTC}}</td>
              </tr>
 
               <tr v-show="$store.state.resultadoETH != 0">
                 <td>{{ETH}}</td>
-                <td>{{$store.state.resultadoETH}}</td>
+                <td>$ {{$store.state.resultadoETH}}</td>
              </tr>
              
               <tr v-show="$store.state.resultadoUSDT != 0">
                 <td>{{USDT}}</td>
-                <td>{{$store.state.resultadoUSDT}}</td>
+                <td>$ {{$store.state.resultadoUSDT}}</td>
              </tr>
         </tbody>
       </table>

@@ -15,7 +15,7 @@
         <div>Criptomoneda: {{information.crypto_code.toUpperCase()}}</div>
         <div>Tipo de operación: {{information.action.toUpperCase()}}</div>
         <div>Cantidad: {{information.crypto_amount}}</div>
-        <div>Dinero invertido: {{information.money}}</div>
+        <div>Dinero invertido: $ {{information.money}}</div>
         <div>Fecha de operación: {{date(information)}}</div>
       </div>
       

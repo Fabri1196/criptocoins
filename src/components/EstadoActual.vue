@@ -14,19 +14,19 @@
               <tr v-show="$store.state.totalBTC>0">
                 <td>{{BTC}}</td>
                 <td>{{$store.state.totalBTC}}</td>
-                <td>{{$store.state.priceBTC}}</td>
+                <td>$ {{$store.state.priceBTC}}</td>
              </tr>
 
               <tr v-show="$store.state.totalETH>0">
                 <td>{{ETH}}</td>
                 <td>{{$store.state.totalETH}}</td>
-                <td>{{$store.state.priceETH}}</td>
+                <td>$ {{$store.state.priceETH}}</td>
              </tr>
 
               <tr v-show="$store.state.totalUSDT>0">
                 <td>{{USDT}}</td>
                 <td>{{$store.state.totalUSDT}}</td>
-                <td>{{$store.state.priceUSDT}}</td>
+                <td>" {{$store.state.priceUSDT}}</td>
              </tr>
           </tbody>
       </table>

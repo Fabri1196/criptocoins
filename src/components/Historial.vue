@@ -18,7 +18,7 @@
                 <td>{{movement.crypto_code.toUpperCase()}}</td>
                 <td>{{movement.action.toUpperCase()}}</td>
                 <td>{{movement.crypto_amount}}</td>
-                <td>{{movement.money}}</td>
+                <td>$ {{movement.money}}</td>
                 <td>{{date(movement)}}</td>
                 <td>
                   <button @click="operation(movement._id, 2)">Ver</button>
